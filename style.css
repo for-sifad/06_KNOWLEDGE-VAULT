@@ -50,19 +50,19 @@ nav .nav-logo img {
     align-items: center;
 }
 
-.hero .hero-container img{
+.hero .hero-container img {
     width: 100%;
     height: 100%;
 }
 
-.hero .hero-container .content-container{
+.hero .hero-container .content-container {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.hero-container div h4{
+.hero-container div h4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,17 +76,22 @@ nav .nav-logo img {
     border-radius: 16px;
 }
 
-.hero-container div h4 img{
+.hero-container div h4 img {
     max-width: 8px;
     height: 8px;
 }
 
-.hero-container div h4, #green{
+.hero-container div h2 {
+    color: white;
+}
+
+.hero-container div h4,
+#green {
     color: #30B868;
     margin-bottom: 10px;
 }
 
-.hero-container div h2{
+.hero-container div h2 {
     font-size: 60px;
     font-weight: bold;
     line-height: 60px;
@@ -94,29 +99,88 @@ nav .nav-logo img {
     margin-bottom: 25px;
 }
 
-.hero-container div p{
+.hero-container div p {
     color: white;
     text-align: center;
     margin-bottom: 25px;
 }
 
-.hero-container div .btn-div{
+.hero-container div .btn-div {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
 }
 
-.hero-container .btn-div .play-btn{
-     padding: 12px 26px;
+.hero-container .btn-div .play-btn {
+    padding: 12px 26px;
     font-weight: 600;
     background-color: transparent;
     color: white;
     border: 1px solid white;
 }
 
+.fail .fail-container {
+    margin: 105px 150px;
+    text-align: center;
+}
 
+.fail-container .left-div h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 6px;
+}
 
+.fail-container .left-div p {
+    color: #627382;
+    margin-bottom: 60px;
+}
 
+.fail .fail-container .right-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
 
+.fail .fail-container .right-div .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(243, 242, 242);
+    border-left: 1px solid rgb(243, 242, 242);
+    border-right: 1px solid rgb(243, 242, 242);
+    padding: 40px 25px;
+}
 
+.fail-container .right-div .img-div {
+    width: 50px;
+    height: 50px;
+    background-color: #F95555;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.right-div .card img {
+    width: 30px;
+    height: 30px;
+}
+
+.right-div .card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 6px;
+}
+
+.right-div .card p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #627382;
+}
