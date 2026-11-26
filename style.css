@@ -184,3 +184,52 @@ nav .nav-logo img {
     font-weight: 600;
     color: #627382;
 }
+
+.knowledge .knowledge-container {
+    margin: 100px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.knowledge-container .left-image img {
+    max-width: 450px;
+    max-height: 700px;
+}
+
+.knowledge-container .right-stuffs {
+    padding-top: 100px;
+}
+
+.knowledge-container .right-stuffs h4 {
+    color: #30B868;
+}
+
+.knowledge-container .right-stuffs h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+.knowledge-container .right-stuffs p {
+    color: #627382;
+    margin-bottom: 20px;
+}
+
+.knowledge-container .right-stuffs div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.right-stuffs div img {
+    width: 16px;
+}
+
+.right-stuffs div h5 {
+    color: #001931;
+    margin-bottom: 6px;
+}
