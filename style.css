@@ -255,3 +255,34 @@ nav .nav-logo img {
     text-align: center;
     color: #627382;
 }
+
+footer {
+ padding: 100px 150px 0px 150px;
+ background-color: #001931;
+ color: white;
+}
+
+footer .upper-container{
+    border-bottom: 1px solid #525252;
+    display: flex;
+    justify-content: space-between;
+   padding-bottom: 80px;
+}
+
+.upper-container .right-links h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.upper-container .right-links div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-txt{
+    display: block;
+    color: #FAFAFA;
+    padding: 25px 0px;
+    text-align: center;
+}
